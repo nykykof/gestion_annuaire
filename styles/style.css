@@ -1,0 +1,112 @@
+
+body{
+    background-color: #eee;
+}
+.content{
+     background-color: #fff;
+     padding-top: 20px;
+     padding-left: 50px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+
+/* parte du bloc de pesentation d'une personne */
+
+#bloc{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 320px;
+    padding-top: 0px;
+    border: 1px solid black;
+}
+#infos{
+    
+}
+
+#head{
+    padding-top: 20px;
+    color: #fff;
+   /*background-color: #3B5998;*/
+   background-color: #007BB6;
+   opacity: 0.9;
+}
+#nom{
+    text-transform: uppercase;
+}
+#info_perso{
+    max-height:80px;
+}
+#info_perso p{
+    margin-top: 50px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+#foot{
+    text-align: center;
+    /*background-color: #3B5998;*/
+    background-color: #007BB6;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 10px;
+    opacity: 0.9;
+}
+/*#photo {
+    background-color: aqua;
+}*/
+#photo img {
+    width: 2.8cm;
+    height: 3cm;
+    border-radius: 10px;
+    float: right;
+}
+#validRemove:hover {
+    cursor: pointer;
+}
+
+#confirmBtn p{
+    display: inline-block;
+}
+
+#foot button {
+    margin-left: 5px;
+     filter: grayscale(100%);
+}
+#foot button:hover {
+    margin-left: 5px;
+     filter: none;
+}
+
+.dropdown-menu span .glyphicon-user{
+    color: blue;
+    font-size: 18px;
+}
+
+#menu{
+    margin-top: 20px;
+    background-color: #eee;
+}
+.navbar-right{
+    margin-right:5px;
+}
+.fond-table{
+    background-color: #fff;
+    margin-left: -35px;
+}
+
+#stats table th, #stats table td{
+    font-size: 24px;
+}
+
+.icon-bar{
+    background-color:  #3B5998;
+}
+.navbar-toggle{
+    float: left;
+}
+
+#erreurs li{
+    font-size: 24px;
+}
